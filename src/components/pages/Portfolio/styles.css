@@ -1,0 +1,19 @@
+.carousel {
+    text-align: center;
+    margin: 0 auto;
+    height: 440px;
+    width: 95%;
+  }
+  
+  /* .good {
+    object-fit: cover;
+  } */
+
+  .carousel img {
+    height: 440px;
+    width: 750px;
+  }
+
+  .is-selected {
+
+  }
