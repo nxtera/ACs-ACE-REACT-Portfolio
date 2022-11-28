@@ -4,7 +4,14 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div className="row g-0" id="headerNav">
+      <div className="col-4">
     <ul className="nav nav-tabs">
+      <li className="initals"><a>AC</a></li>
+      </ul>
+      </div>
+      <div className="col text-center">
+      <ul className ="nav nav-tabs">
       <li className="nav-item">
         <a
           href="#about"
@@ -47,6 +54,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
+    </div>
   );
 }
 

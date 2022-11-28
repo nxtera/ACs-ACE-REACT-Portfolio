@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .wrapper {
+    background-color: rgba(205, 205, 205, 0.974);
+    min-height: 100vh; margin:0;
+  }
+
+.initals {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+margin-bottom: 12px;    
+font-size: 25px;
+    font-weight: 700;
+    color: rgb(161, 149, 73);
+}
+
+.row {
+padding: 100px;
+}
+
+.nav-tabs {
+    padding-bottom: 0px;
+    min-height:50px;
+    background-color: rgb(67, 67, 67)
+}
+
+#headerNav {
+  height: 65px;
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;   
+  margin: 0;
+}
+
+.nav-tabs a {
+  padding: 15px;
+  color: rgb(227, 225, 225);
+  font-weight: 600;
+} 
+
+.nav-tabs a:hover {
+color: gold;
+} 
+
+.nav-a {
+  padding: 5px;
+}
+
+
+
+
+  /* Footer */
+
+.footerLogo {
+    position: fixed;
+    min-height:35px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  color: white;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  } 
+
+  .logoContainer {
+    height: 25px;
+    width: 355px;
+    display: flex;
+margin: 0 auto; 
+margin-top: 4px; 
+
+}
+
+  .logo {
+    object-fit: contain;
+    padding-left: 20px;
+  }

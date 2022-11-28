@@ -1,19 +1,41 @@
 .carousel {
-    text-align: center;
-    margin: 0 auto;
-    height: 440px;
-    width: 95%;
-  }
-  
-  /* .good {
-    object-fit: cover;
-  } */
+  text-align: center;
+  margin: 0 auto;
+  height: 440px;
+  width: 100%;
+  background-color: black;
+}
 
-  .carousel img {
-    height: 440px;
-    width: 750px;
-  }
+.gif {
+  height: 440px;
+  width: 750px;
+}
 
-  .is-selected {
+.is-selected {}
 
-  }
+.carousel-cell {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.github-icon {
+  height: 50px;
+  width: 90px;
+  display: flex;
+  border-style: solid 10px;
+  border-color: aqua;
+}
+
+.github-icon img {
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  top: -25rem;
+  left: 1rem;
+  transition: transform .2s;
+}
+
+.github-icon img:hover {
+  transform: scale(1.5);
+}
+

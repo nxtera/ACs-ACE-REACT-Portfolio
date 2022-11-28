@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio Page</h1>
+      <h1>My Projects...</h1>
     < Carousel />
     </div>
   );
