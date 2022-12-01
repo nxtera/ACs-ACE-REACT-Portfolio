@@ -28,15 +28,16 @@ padding: 100px;
 .nav-tabs {
     padding-bottom: 0px;
     min-height:50px;
-    background-color: rgb(67, 67, 67)
+    background-color: rgb(67, 67, 67);
 }
 
 #headerNav {
-  height: 65px;
   padding: 0;
   padding-left: 0;
   padding-right: 0;   
   margin: 0;
+  border-bottom: 1.5px solid gold;
+
 }
 
 .nav-tabs a {
@@ -54,10 +55,77 @@ color: gold;
 }
 
 
+/* About Me */
+.profileContainer {
+  display: flex;
+  padding-top: 100px;
+  position: relative;
+}
+
+.profilePicContainer {
+  width: 270px;
+  padding-left: 40px;
+  position: absolute;
+  left: 140px;
+  bottom: 160px;
+  z-index: 1;
+}
+
+#profilePic {
+  width: 100%;
+}
+
+.profileTextContainer {
+  width: 46rem;
+text-align: center;
+background-color:rgb(255, 255, 255);
+position: relative;
+left: 200px;
+top: 60px;
+border-style: solid;
+border-color: rgb(67, 67, 67);
+padding: 8px;
+}
+
+/* Contact */
+.formContainer {
+  border: 2px solid gold;  
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  background-color: rgb(67, 67, 67);
+  color: rgb(202, 173, 3);
+  padding: 10px;
 
 
-  /* Footer */
+}
 
+.newMsg{
+  margin: 0 auto;
+}
+
+#msgName, #msgEmail{
+  width: 15rem;
+  display: block;
+  margin: 0 auto;  
+  margin-top: 15px;
+}
+
+#msgContent {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#submitThoughtBtn{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+
+/* Footer */
 .footerLogo {
     position: fixed;
     min-height:35px;
@@ -75,7 +143,6 @@ color: gold;
     display: flex;
 margin: 0 auto; 
 margin-top: 4px; 
-
 }
 
   .logo {
