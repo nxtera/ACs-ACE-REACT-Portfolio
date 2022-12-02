@@ -1,54 +1,56 @@
+/*Global*/
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .wrapper {
-    background-color: rgba(205, 205, 205, 0.974);
-    min-height: 100vh; margin:0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
 
+.wrapper {
+  background-color: rgba(205, 205, 205, 0.974);
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Header */
 .initals {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-margin-bottom: 12px;    
-font-size: 25px;
-    font-weight: 700;
-    color: rgb(161, 149, 73);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  margin-bottom: 12px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(161, 149, 73);
 }
 
 .row {
-padding: 100px;
+  padding: 100px;
 }
 
 .nav-tabs {
-    padding-bottom: 0px;
-    min-height:50px;
-    background-color: rgb(67, 67, 67);
+  padding-bottom: 0px;
+  min-height: 50px;
+  background-color: rgb(67, 67, 67);
 }
 
 #headerNav {
   padding: 0;
   padding-left: 0;
-  padding-right: 0;   
+  padding-right: 0;
   margin: 0;
   border-bottom: 1.5px solid gold;
-
 }
 
 .nav-tabs a {
   padding: 15px;
   color: rgb(227, 225, 225);
   font-weight: 600;
-} 
+}
 
 .nav-tabs a:hover {
-color: gold;
-} 
+  color: gold;
+}
 
 .nav-a {
   padding: 5px;
@@ -77,19 +79,27 @@ color: gold;
 
 .profileTextContainer {
   width: 46rem;
-text-align: center;
-background-color:rgb(255, 255, 255);
-position: relative;
-left: 200px;
-top: 60px;
-border-style: solid;
-border-color: rgb(67, 67, 67);
-padding: 8px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 200px;
+  top: 60px;
+  border-style: solid;
+  border-color: rgb(67, 67, 67);
+  padding: 8px;
+}
+
+/* Portfolio */
+.projectTitle h1 {
+  padding-left: 15px;
+  padding-top: 30px;
+  font-size: (1.375rem + 1.5vw);
+  font-weight: 500;
 }
 
 /* Contact */
 .formContainer {
-  border: 2px solid gold;  
+  border: 2px solid gold;
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -98,18 +108,17 @@ padding: 8px;
   background-color: rgb(67, 67, 67);
   color: rgb(202, 173, 3);
   padding: 10px;
-
-
 }
 
-.newMsg{
+.newMsg {
   margin: 0 auto;
 }
 
-#msgName, #msgEmail{
+#msgName,
+#msgEmail {
   width: 15rem;
   display: block;
-  margin: 0 auto;  
+  margin: 0 auto;
   margin-top: 15px;
 }
 
@@ -118,34 +127,83 @@ padding: 8px;
   margin-bottom: 15px;
 }
 
-#submitThoughtBtn{
+#sendMessageBtn {
   display: block;
   margin: 0 auto;
   margin-bottom: 15px;
 }
 
+/* CV */
+.cvContainer {
+  border-style: solid;
+  background-color: whitesmoke;
+  width: 42rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.cvContainer h1 {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.cvContainer h2 {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  text-decoration: underline;
+}
+
+.skillsList {
+  /* -moz-column-count: 1;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 1;
+  -webkit-column-gap: 10px; */
+  column-count: 3;
+  column-gap: 50px;
+}
+
+.btnContainer {
+  display: block;
+  width: auto
+}
+
+#downloadCV {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
 
 /* Footer */
 .footerLogo {
-    position: fixed;
-    min-height:35px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  position: fixed;
+  min-height: 35px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   color: white;
   text-align: center;
   background-color: rgb(255, 255, 255);
-  } 
-
-  .logoContainer {
-    height: 25px;
-    width: 355px;
-    display: flex;
-margin: 0 auto; 
-margin-top: 4px; 
 }
 
-  .logo {
-    object-fit: contain;
-    padding-left: 20px;
-  }
+.logoContainer {
+  height: 25px;
+  width: 355px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 4px;
+}
+
+
+
+.logo {
+  object-fit: contain;
+  padding-left: 20px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}

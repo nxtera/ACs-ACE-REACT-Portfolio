@@ -1,14 +1,11 @@
-import React from 'react';
-import NavTabs from './NavTabs';
-
-// import About from './pages/About';
-// import Portfolio from './pages/Portfolio';
-// import Contact from './pages/Contact';
-// import CV from './pages/CV';
+import React from "react";
+import NavTabs from "./NavTabs";
 
 export default function Header(props) {
-
-    return (
-      <NavTabs currentPage={props.currentPage} handlePageChange={props.handlePageChange}/>
-    );
-  }
+  return (
+    <NavTabs
+      currentPage={props.currentPage}
+      handlePageChange={props.handlePageChange}
+    />
+  );
+}

@@ -11,7 +11,6 @@
   width: 750px;
 }
 
-.is-selected {}
 
 .carousel-cell {
   padding-left: 5px;
@@ -38,4 +37,3 @@
 .github-icon img:hover {
   transform: scale(1.5);
 }
-
