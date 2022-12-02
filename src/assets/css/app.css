@@ -8,9 +8,13 @@
 }
 
 .wrapper {
+  box-sizing: border-box;
   background-color: rgba(205, 205, 205, 0.974);
   min-height: 100vh;
+  width: 100%;
   margin: 0;
+  overflow: hidden;
+  position: relative;
 }
 
 /* Header */
@@ -65,11 +69,11 @@
 }
 
 .profilePicContainer {
-  width: 270px;
-  padding-left: 40px;
-  position: absolute;
-  left: 140px;
-  bottom: 160px;
+  width: 295px;
+  padding-left: 0px;
+  position: relative;
+  left: 75px;
+  bottom: 100px;
   z-index: 1;
 }
 
@@ -78,15 +82,21 @@
 }
 
 .profileTextContainer {
-  width: 46rem;
+  box-sizing: border-box;
+  width: 60rem;
   text-align: center;
   background-color: rgb(255, 255, 255);
   position: relative;
-  left: 200px;
-  top: 60px;
+  left: -70px;
+  top: 10px;
   border-style: solid;
   border-color: rgb(67, 67, 67);
   padding: 8px;
+  overflow: hidden;
+}
+
+.profileTextContainer p {
+font-size: 20px;
 }
 
 /* Portfolio */
@@ -158,10 +168,10 @@
 }
 
 .skillsList {
-  /* -moz-column-count: 1;
+  -moz-column-count: 1;
   -moz-column-gap: 10px;
   -webkit-column-count: 1;
-  -webkit-column-gap: 10px; */
+  -webkit-column-gap: 10px;
   column-count: 3;
   column-gap: 50px;
 }

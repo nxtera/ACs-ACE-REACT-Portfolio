@@ -17,7 +17,7 @@ const flickityOptions = {
   setGallerySize: false,
   percentPosition: false,
   autoPlay: 8500,
-  initialIndex: 2,
+  initialIndex: 1,
 };
 
 function Carousel() {

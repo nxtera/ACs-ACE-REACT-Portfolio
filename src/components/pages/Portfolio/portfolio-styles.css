@@ -1,13 +1,13 @@
 .carousel {
   text-align: center;
   margin: 0 auto;
-  height: 440px;
+  height: 350px;
   width: 100%;
   background-color: black;
 }
 
 .gif {
-  height: 440px;
+  height: 350px;
   width: 750px;
 }
 
