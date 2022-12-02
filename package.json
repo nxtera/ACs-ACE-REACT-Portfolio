@@ -18,6 +18,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,10 +48,14 @@
     "type": "git",
     "url": "git+https://github.com/nxtera/ACs-ACE-REACT-Portfolio-.git"
   },
+  "homepage": "http://github-nxtera.github.io/ACs-ACE-REACT-Portfolio",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nxtera/ACs-ACE-REACT-Portfolio-/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
