@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ACs-ACE-REACT-Portfolio/static/css/main.6a008a5c.chunk.css",
+    "main.js": "/ACs-ACE-REACT-Portfolio/static/js/main.b30451c8.chunk.js",
+    "main.js.map": "/ACs-ACE-REACT-Portfolio/static/js/main.b30451c8.chunk.js.map",
+    "runtime-main.js": "/ACs-ACE-REACT-Portfolio/static/js/runtime-main.58eea61e.js",
+    "runtime-main.js.map": "/ACs-ACE-REACT-Portfolio/static/js/runtime-main.58eea61e.js.map",
+    "static/css/2.f26e749f.chunk.css": "/ACs-ACE-REACT-Portfolio/static/css/2.f26e749f.chunk.css",
+    "static/js/2.2f994df3.chunk.js": "/ACs-ACE-REACT-Portfolio/static/js/2.2f994df3.chunk.js",
+    "static/js/2.2f994df3.chunk.js.map": "/ACs-ACE-REACT-Portfolio/static/js/2.2f994df3.chunk.js.map",
+    "index.html": "/ACs-ACE-REACT-Portfolio/index.html",
+    "static/css/2.f26e749f.chunk.css.map": "/ACs-ACE-REACT-Portfolio/static/css/2.f26e749f.chunk.css.map",
+    "static/css/main.6a008a5c.chunk.css.map": "/ACs-ACE-REACT-Portfolio/static/css/main.6a008a5c.chunk.css.map",
+    "static/js/2.2f994df3.chunk.js.LICENSE.txt": "/ACs-ACE-REACT-Portfolio/static/js/2.2f994df3.chunk.js.LICENSE.txt",
+    "static/media/GitHub_Logo.746ec8f0.png": "/ACs-ACE-REACT-Portfolio/static/media/GitHub_Logo.746ec8f0.png",
+    "static/media/Office_Team_Gen_Short.2908f2a6.gif": "/ACs-ACE-REACT-Portfolio/static/media/Office_Team_Gen_Short.2908f2a6.gif",
+    "static/media/Showers_or_Sunshine_Short.80c10752.gif": "/ACs-ACE-REACT-Portfolio/static/media/Showers_or_Sunshine_Short.80c10752.gif",
+    "static/media/TechUnity_API_Short.ae7f0d9a.gif": "/ACs-ACE-REACT-Portfolio/static/media/TechUnity_API_Short.ae7f0d9a.gif",
+    "static/media/Tech_Thoughts_Short.bda62a0b.gif": "/ACs-ACE-REACT-Portfolio/static/media/Tech_Thoughts_Short.bda62a0b.gif",
+    "static/media/Track_My_Employee_Short.c396db49.gif": "/ACs-ACE-REACT-Portfolio/static/media/Track_My_Employee_Short.c396db49.gif",
+    "static/media/Whats_Back_There_Short.275b3070.gif": "/ACs-ACE-REACT-Portfolio/static/media/Whats_Back_There_Short.275b3070.gif",
+    "static/media/github_icon.69ffd9cd.png": "/ACs-ACE-REACT-Portfolio/static/media/github_icon.69ffd9cd.png",
+    "static/media/linkedin_logo.1ec4b879.png": "/ACs-ACE-REACT-Portfolio/static/media/linkedin_logo.1ec4b879.png",
+    "static/media/profile-avatar.87ba86e5.png": "/ACs-ACE-REACT-Portfolio/static/media/profile-avatar.87ba86e5.png",
+    "static/media/stackoverflow_logo.e2c42001.png": "/ACs-ACE-REACT-Portfolio/static/media/stackoverflow_logo.e2c42001.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58eea61e.js",
+    "static/css/2.f26e749f.chunk.css",
+    "static/js/2.2f994df3.chunk.js",
+    "static/css/main.6a008a5c.chunk.css",
+    "static/js/main.b30451c8.chunk.js"
+  ]
+}
