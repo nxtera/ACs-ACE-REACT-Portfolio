@@ -23,9 +23,9 @@
   padding-right: 20px;
   padding-top: 5px;
   margin-bottom: 12px;
-  font-size: 25px;
+  font-size: 32px;
   font-weight: 700;
-  color: rgb(161, 149, 73);
+  color: gold;
 }
 
 .row {
@@ -43,13 +43,14 @@
   padding-left: 0;
   padding-right: 0;
   margin: 0;
-  border-bottom: 1.5px solid gold;
+  border-bottom: 3px solid gold;
 }
 
 .nav-tabs a {
   padding: 15px;
   color: rgb(227, 225, 225);
   font-weight: 600;
+  font-size: 23px;
 }
 
 .nav-tabs a:hover {
@@ -72,7 +73,7 @@
   width: 295px;
   padding-left: 0px;
   position: relative;
-  left: 75px;
+  left: 170px;
   bottom: 100px;
   z-index: 1;
 }
@@ -83,12 +84,11 @@
 
 .profileTextContainer {
   box-sizing: border-box;
-  width: 60rem;
+  width: 70rem;
   text-align: center;
   background-color: rgb(255, 255, 255);
   position: relative;
-  left: -70px;
-  top: 10px;
+  top: 15px;
   border-style: solid;
   border-color: rgb(67, 67, 67);
   padding: 8px;
@@ -96,7 +96,7 @@
 }
 
 .profileTextContainer p {
-font-size: 20px;
+font-size: 28px;
 }
 
 /* Portfolio */
@@ -126,28 +126,40 @@ font-size: 20px;
 
 #msgName,
 #msgEmail {
-  width: 15rem;
+  width: 25rem;
   display: block;
   margin: 0 auto;
   margin-top: 15px;
+  font-size: 25px;
 }
 
 #msgContent {
   margin-top: 15px;
   margin-bottom: 15px;
+  font-size: 25px;
 }
 
 #sendMessageBtn {
   display: block;
   margin: 0 auto;
   margin-bottom: 15px;
+  font-size: 26px;
+}
+
+#errorMsg {
+  font-size: 22px;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+  background-color: rgb(162, 4, 4);
+  width: 45%;
+  margin: 0 auto;
 }
 
 /* CV */
 .cvContainer {
   border-style: solid;
   background-color: whitesmoke;
-  width: 42rem;
+  width: 60rem;
   margin: 0 auto;
   margin-top: 8rem;
 }
@@ -158,6 +170,7 @@ font-size: 20px;
   display: flex;
   padding: 10px;
   font-weight: 500;
+  font-size: 50px;
 }
 
 .cvContainer h2 {
@@ -165,6 +178,7 @@ font-size: 20px;
   padding-top: 10px;
   padding-bottom: 3px;
   text-decoration: underline;
+  font-size: 40px;
 }
 
 .skillsList {
@@ -174,17 +188,19 @@ font-size: 20px;
   -webkit-column-gap: 10px;
   column-count: 3;
   column-gap: 50px;
+  font-size: 25px;
 }
 
 .btnContainer {
   display: block;
-  width: auto
+  width: auto;
 }
 
 #downloadCV {
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 35px;
   display: flex;
+  font-size: 25px;
 }
 
 /* Footer */

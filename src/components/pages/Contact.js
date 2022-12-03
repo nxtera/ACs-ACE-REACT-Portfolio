@@ -57,8 +57,8 @@ export default function Contact() {
           <textarea
             id="msgContent"
             name="content"
-            rows="6"
-            cols="40"
+            rows="7"
+            cols="55"
             placeholder="Pleae enter your message here..."
             onChange={handleChange}
             onBlur={handleChange}
@@ -67,7 +67,7 @@ export default function Contact() {
             Send Message
           </button>
         </div>
-        <p>{error}</p>
+        <p id="errorMsg">{error}</p>
       </div>
     </div>
   );

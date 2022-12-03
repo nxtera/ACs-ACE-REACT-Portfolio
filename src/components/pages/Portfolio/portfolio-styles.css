@@ -1,14 +1,14 @@
 .carousel {
   text-align: center;
   margin: 0 auto;
-  height: 350px;
+  height: 500px;
   width: 100%;
   background-color: black;
 }
 
 .gif {
-  height: 350px;
-  width: 750px;
+  height: 500px;
+  width: 800px;
 }
 
 
